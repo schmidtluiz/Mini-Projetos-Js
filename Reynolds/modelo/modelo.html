@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reynalds</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Número de Reynolds</h1>
+    </header>
+    <section>
+        <div id='dados'>
+            <p>
+                Densidade do fluido:
+                <input type="number" name="txtden" id="txtden"> kg/m³
+            </p>
+            <p>
+                Velocidade:
+                <input type="number" name="txtvel" id="txtvel"> m/s
+            </p>
+            <p>
+                Diâmetro do tubo:
+                <input type="number" name="txtdia" id="txtdia"> m
+            </p>
+            <p>
+                Viscosidade:
+                <input type="number" name="txtvis" id="txtvis"> kg/m.s
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="reynolds()">
+            </p>
+
+        </div>
+        <div id='res'>
+
+        </div>
+        <div id="res1">
+            
+        </div>
+    </section>
+    <footer>
+        <p> &copy; LuizSchmidt</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
